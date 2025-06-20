@@ -81,6 +81,9 @@ Here is how the program should run with you:
 ![Screenshot 2025-05-06 203033](https://github.com/user-attachments/assets/a7f8eda3-5ee0-4717-91d4-29f346946074)
 ![Screenshot 2025-05-06 203100](https://github.com/user-attachments/assets/b8274b37-61a5-4166-8e32-ea38a56bcc64)
 
+![Screenshot 2025-05-06 203111](https://github.com/user-attachments/assets/c69a4a49-a8e1-4b0d-99ad-38e46883e508)
+
+![Screenshot 2025-05-06 203123](https://github.com/user-attachments/assets/46fa328a-db5a-4b1e-80ca-862d30375a30)
 
 
 
