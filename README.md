@@ -68,9 +68,15 @@ products_database_FINAL_VERSION.py: Handles all database operations for products
 user_database_FINAL_VERSION.py: Handles all database operations for users.
 
 backgroundIMG.jpg: The background image used in the GUI.
+
+Here is how the program should run with you:
+ 
 ![457494173-638ce0e1-585b-42a2-a037-7b01fe9b4170](https://github.com/user-attachments/assets/8d3baa92-31df-4e9a-813e-9dee628718ed)
 
 ![457494085-67ed18c1-a31f-42ad-826a-c7089b1bfca1](https://github.com/user-attachments/assets/c2db7866-e56e-4ae7-887b-5d96778f885f)
+![Screenshot 2025-05-06 203022](https://github.com/user-attachments/assets/781bb6f4-60fe-4a23-b947-fdef63582a24)
+![Screenshot 2025-05-06 203033](https://github.com/user-attachments/assets/a7f8eda3-5ee0-4717-91d4-29f346946074)
+
 
 
 
