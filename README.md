@@ -69,7 +69,7 @@ user_database_FINAL_VERSION.py: Handles all database operations for users.
 
 backgroundIMG.jpg: The background image used in the GUI.
 
-Here is how the program should run with you:
+# Here is how the program should run with you:
  
 ![457494173-638ce0e1-585b-42a2-a037-7b01fe9b4170](https://github.com/user-attachments/assets/8d3baa92-31df-4e9a-813e-9dee628718ed)
 
