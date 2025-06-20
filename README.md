@@ -1,2 +1,70 @@
-# SCM-Simulation-Project
-A Supply Chain Management  with LLM integrated  simulation in Python using OOP
+Supply Chain Management (SCM) Simulation
+This project is a comprehensive, object-oriented simulation of a supply chain management system developed in Python. It features a graphical user interface (GUI) built with Tkinter and integrates a local Large Language Model (LLM) to provide intelligent, data-driven insights.
+
+Key Features
+Object-Oriented Design: The entire supply chain is modeled using Python classes (e.g., Supplier, Manufacturer, Product, Order), demonstrating strong OOP principles.
+
+AI-Powered Insights: A locally-run LLM (via llama-cpp-python) is integrated to perform tasks like:
+
+Generating marketing slogans for products.
+
+Analyzing customer reviews for sentiment and key takeaways.
+
+Answering general questions about supply chain management.
+
+Graphical User Interface (GUI): A user-friendly login screen and main application interface built with Tkinter.
+
+Database Integration: Uses SQLite to persist user and product data, making the simulation's state durable between sessions.
+
+Advanced Design Patterns: Implements the Proxy Pattern (ProductProxy) to control access to Product objects, for instance, by restricting certain actions (like updating quantity) to admin-level users.
+
+Complete SCM Flow: Simulates the entire lifecycle from raw material supply to manufacturing, warehousing, distribution, retail, and final customer orders.
+
+How to Run This Project
+Prerequisites
+You need to have Python installed on your system. You will also need to install the required libraries.
+
+1. Clone the Repository
+First, clone this repository to your local machine:
+
+git clone https://github.com/ali3442/SCM-Simulation-Project.git
+cd SCM-Simulation-Project
+
+2. Install Dependencies
+This project requires a few Python libraries. You can install them using pip:
+
+pip install Pillow multipledispatch llama-cpp-python
+
+(Note: tkinter and sqlite3 are part of the standard Python library and do not need to be installed separately.)
+
+3. Set Up the AI Model
+This simulation is configured to use a local Large Language Model (LLM) in GGUF format.
+
+Download a Model: You need to download a GGUF model. The one used during development was DeepSeek-Coder-V2-Lite-Instruct-IQ3_M.gguf. You can find this or similar models on Hugging Face or LLM studio.
+
+Update the Model Path: Open the main_project_FINAL_VERSION.py file and update the model_path variable in the AIService class instance to point to the location where you saved your downloaded model.
+
+# Find this line in main_project_FINAL_VERSION.py
+ai_service = AIService(
+    model_path=r"C:\path\to\your\downloaded\model.gguf" # <-- CHANGE THIS
+    )
+
+4. Run the Application
+Once the dependencies are installed and the model path is set, you can run the application by executing the GUI script:
+
+python gui_FINAL_VERSION.py
+
+Login Email: admin@gmail.com
+
+Login Password: 123456789
+
+Project Structure
+gui_FINAL_VERSION.py: The main entry point for the application. Launches the Tkinter GUI.
+
+main_project_FINAL_VERSION.py: Contains the core logic, classes, and the main simulation flow.
+
+products_database_FINAL_VERSION.py: Handles all database operations for products.
+
+user_database_FINAL_VERSION.py: Handles all database operations for users.
+
+backgroundIMG.jpg: The background image used in the GUI.
